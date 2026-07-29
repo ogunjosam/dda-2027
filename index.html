@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamics Days Africa 2027 · Redeemer's University, Nigeria</title>
+  <meta name="description" content="Inaugural Dynamics Days Africa 2027 conference on chaos, nonlinear dynamics, and complex systems. Redeemer's University, Ede, Osun State, Nigeria.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    @keyframes attractor-draw {
+      to { stroke-dashoffset: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">DDA<span>·</span>2027</a>
+      <button class="nav-toggle" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Welcome</a></li>
+        <li><a href="topics.html">Topics</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="committee.html">Committee</a></li>
+        <li><a href="venue.html">Venue</a></li>
+        <li><a href="dates.html">Dates</a></li>
+        <li><a href="registration.html">Register</a></li>
+        <li><a href="submission.html">Submit</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-meta">Inaugural edition · Africa</div>
+          <h1>Dynamics Days <span class="accent">Africa</span> 2027</h1>
+          <p class="hero-tagline">The first African chapter of the international series on chaos, nonlinear dynamics, and complex systems.</p>
+
+          <div class="hero-details">
+            <div class="hero-detail">
+              <div class="hero-detail-label">Dates</div>
+              <div class="hero-detail-value">2027</div>
+            </div>
+            <div class="hero-detail">
+              <div class="hero-detail-label">Location</div>
+              <div class="hero-detail-value">Ede, Nigeria</div>
+            </div>
+            <div class="hero-detail">
+              <div class="hero-detail-label">Host</div>
+              <div class="hero-detail-value">Redeemer's University</div>
+            </div>
+          </div>
+
+          <div class="hero-cta">
+            <a href="registration.html" class="btn btn-primary">Register →</a>
+            <a href="submission.html" class="btn btn-secondary">Submit abstract</a>
+          </div>
+        </div>
+
+        <div class="attractor">
+          <svg id="attractor-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="attractor-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FF6B35"/>
+                <stop offset="50%" stop-color="#FFD23F"/>
+                <stop offset="100%" stop-color="#40C9A2"/>
+              </linearGradient>
+            </defs>
+            <text x="20" y="30" fill="#8B96B8" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="0.05em">ẋ = σ(y − x)</text>
+            <text x="20" y="45" fill="#8B96B8" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="0.05em">ẏ = x(ρ − z) − y</text>
+            <text x="20" y="60" fill="#8B96B8" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="0.05em">ż = xy − βz</text>
+            <text x="380" y="390" fill="#5C6785" font-family="JetBrains Mono, monospace" font-size="9" text-anchor="end">Lorenz · σ=10 ρ=28 β=8/3</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section-tight">
+    <div class="container">
+      <div class="grid grid-2" style="gap: var(--gap-5);">
+        <div>
+          <span class="eyebrow">About the conference</span>
+          <h2 style="margin-top: var(--gap-2); margin-bottom: var(--gap-3);">Where the mathematics of change meets the African continent.</h2>
+        </div>
+        <div class="prose">
+          <p>Dynamics Days is a series of major interdisciplinary international conferences on the theory and application of chaos and nonlinear dynamics, hosted for decades in cities across Europe, Asia, and the Americas.</p>
+          <p>DDA 2027 is the inaugural African edition, bringing together researchers in physics, mathematics, biology, engineering, and the geosciences to advance nonlinear science on the continent where it has long been under-represented, and to open new pathways for African researchers to join the global conversation.</p>
+          <p>The conference will host plenary talks, minisymposia, contributed talks, and posters, with proceedings published by a leading international publisher.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Programme highlights</span>
+        <h2 style="margin-top: var(--gap-2);">What to expect at DDA 2027</h2>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-num">01</div>
+          <h3>Plenary talks</h3>
+          <p>Featuring leading researchers presenting recent advances in dynamical systems from around the world.</p>
+        </div>
+        <div class="card">
+          <div class="card-num">02</div>
+          <h3>Minisymposia</h3>
+          <p>Focused sessions proposed by participants on specific themes in nonlinear science and its applications.</p>
+        </div>
+        <div class="card">
+          <div class="card-num">03</div>
+          <h3>Contributed talks</h3>
+          <p>Present your work, engage with peers, and build collaborations across disciplines and continents.</p>
+        </div>
+        <div class="card">
+          <div class="card-num">04</div>
+          <h3>Poster sessions</h3>
+          <p>Dedicated poster showcases with best-poster awards for early-career researchers and PhD students.</p>
+        </div>
+        <div class="card">
+          <div class="card-num">05</div>
+          <h3>Proceedings</h3>
+          <p>Peer-reviewed contributions to be published by Springer, IOP, IEEE, or AIP.</p>
+        </div>
+        <div class="card">
+          <div class="card-num">06</div>
+          <h3>Networking</h3>
+          <p>Conference dinner and social events to build lasting research connections across the community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Topics preview -->
+  <section class="section-tight" style="background: var(--bg-elevated);">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Areas of interest</span>
+        <h2 style="margin-top: var(--gap-2);">The full breadth of nonlinear science</h2>
+      </div>
+
+      <div class="topics-grid">
+        <span class="topic-pill">Chaos synchronization</span>
+        <span class="topic-pill">Time series analysis</span>
+        <span class="topic-pill">Climate dynamics</span>
+        <span class="topic-pill">Space physics</span>
+        <span class="topic-pill">Biophysics</span>
+        <span class="topic-pill">Machine learning</span>
+        <span class="topic-pill">Fractal theory</span>
+        <span class="topic-pill">Electronic chaos</span>
+        <span class="topic-pill">Neuroscience</span>
+        <span class="topic-pill">Network dynamics</span>
+        <span class="topic-pill">Stochastic resonance</span>
+        <span class="topic-pill">Econophysics</span>
+        <span class="topic-pill">Computational methods</span>
+        <span class="topic-pill">Electronic implementation</span>
+      </div>
+
+      <div style="margin-top: var(--gap-3);">
+        <a href="topics.html" class="btn btn-secondary">View all topics →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="nav-brand" style="margin-bottom: var(--gap-2);">Dynamics Days <span>Africa</span> 2027</div>
+          <p style="color: var(--ink-muted); font-size: var(--step--1);">The inaugural African edition of the Dynamics Days conference series on chaos and nonlinear dynamics.</p>
+        </div>
+        <div>
+          <h4>Conference</h4>
+          <ul>
+            <li><a href="topics.html">Topics</a></li>
+            <li><a href="speakers.html">Speakers</a></li>
+            <li><a href="committee.html">Committee</a></li>
+            <li><a href="venue.html">Venue</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Participation</h4>
+          <ul>
+            <li><a href="dates.html">Important dates</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="submission.html">Submissions</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>DDA 2027 · Redeemer's University, Ede, Osun State, Nigeria</div>
+        <div>© 2027 Dynamics Days Africa</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
